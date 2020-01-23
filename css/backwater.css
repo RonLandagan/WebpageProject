@@ -1,0 +1,236 @@
+body { 
+  background-color: #595942;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0px;
+}
+
+header.top {
+    background-color: #393d38;
+    margin:           10px 10px 0px 10px;
+    height:           108px;
+}
+
+header.top h1{
+    font-family:      'Gravitas One', cursive;
+    font-size:        400%;
+    color:            #ABD897;
+}
+
+header.top h2{
+    font-family:      'Pacifico', cursive;
+    font-size:        200%;
+    color:            #ABD897;
+    text-align:       right; 
+    padding:          0px 15px 0px 0px;
+}
+
+header.top div#headerLogo {
+    float:          left;
+    height:         108px;
+    width:          55%;
+}
+
+header.top div#headerSlogan {
+    float:          right;
+    height:         108px;
+    width:          35%;
+    margin:         30px 0px 0px 0px;
+}
+
+nav {
+    background-color:   #86A378;
+    margin:             10px 10px 0px 10px;
+}
+
+nav ul {
+    text-transform:     uppercase;
+    margin:             0px;
+    list-style-type:    none;
+    padding:            5px 0px 5px 0px;        
+}
+
+nav ul li {
+    border-bottom:      none;
+    display:            inline;
+    padding:            5px 10px 5px 10px;
+    font-weight:        bold;
+}
+
+nav ul li.selected {
+    background-color:   #4E6345;
+
+}
+
+div{
+    border-spacing: 0px;
+    width:  100%;
+    
+}
+
+div#tableContainer{
+    display:            table;
+    border-spacing:     10px;
+    
+}
+
+div#tableRow{
+    display:            table-row;
+    
+}
+
+section{
+    width:          30%;
+} 
+
+section#pizzas{
+  display:          table-cell;
+  background-color: #86A378;
+  width:            35%;
+  padding:          15px;
+  vertical-align:   top;
+}
+
+section.recipe{
+    display:            table-cell;
+    padding:            15px;
+    width:              60%;
+}
+
+section#main {
+  display:          table-cell;
+  background:       #86A378 url(images/background.gif) top left;
+  font-size:        105%;
+  width:            25%;
+  padding:          15px;
+  vertical-align:   top;
+}
+
+section#blog {
+  display:          table-cell;
+  background:       #86A378 url(images/background.gif) top left;
+  font-size:        105%;
+  padding:          15px 30px 15px 15px;
+  vertical-align:   top;
+}
+
+section.recipeEntry{
+    background-color: #86A378;
+    margin:     0px 0px 10px 0px;
+    width:      100%;
+}
+
+aside {
+  display:          table-cell;
+  background:       #86A378 url(images/background.gif) bottom right;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align:   top;
+}
+
+aside#renovations {
+    display:            table-cell;
+    background:         #86A378 url(images/background.gif) top left;
+    font-size:          105%;
+    width:              25%;
+    padding:            15px;
+    vertical-align:     top;
+    text-align:         center;
+    font:               15px/1.5 "Times New Roman", Verdana, sans-serif;
+}
+
+footer {
+  background-color: #86A378;
+  color:            #efe5d0;
+  text-align:       center;
+  padding:          15px;
+  margin:           0px 10px 10px 10px;
+  font-size:        90%;
+}
+
+h1 {
+  padding:          5px;
+  font-size:        120%;
+  color:            #E2DADA;
+}
+
+h2 {
+    font-size:      120%;
+    color:          #E2DADA;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size:      100%;
+    color:          #E2DADA;
+    text-transform: uppercase;
+    margin-top:     20px;
+}
+
+q {
+    font-family: 'Open Sans', sans-serif;
+    font-size:      150%;
+}
+
+ul {
+    list-style-type:none;
+    margin:         0;
+    padding:        0;
+}
+
+li {
+    border-bottom:  1px dotted #595942;
+    font:           14px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+ol li{
+    font-family:      Georgia, "Times New Roman", Times, serif;
+}
+
+li.dishName{
+    border-bottom:  none;
+    font:           16px;
+    font-weight:    bold;
+}
+
+li:last-child {
+    border:         none;
+}
+
+.slogan{
+    list-style-type:    none;
+    font-family:        sans-serif;
+    text-transform:     uppercase;
+}
+
+.slogan li{
+    border:         none;
+    text-transform: uppercase;
+    font-family:    'Gravitas One', cursive;
+}
+
+.location {
+  text-align:       center;
+  line-height:      1.8em;
+  width:            20%;
+}
+
+.recipe ol {
+    padding: 10px;
+    margin-top: -20px;
+}
+
+.recipe li {
+    border-bottom:  none;
+}
+
+a:link {
+  color:            #E2DADA;
+  text-decoration:  none;
+  border-bottom:    none;
+}
+a:visited {
+  color:            #E2DADA;
+  text-decoration:  none;
+  border-bottom:    none;
+}
